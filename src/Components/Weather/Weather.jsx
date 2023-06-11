@@ -7,7 +7,7 @@ import { ChildrenDetailedWeather } from "../../Utils/ChildrenDetailedWeather";
 export const Weather = ({disabled}) => {
     const [weatherData, setWeatherData] = useState(null);
     const [editing, setEditing] = useState(false);
-    const [search, setSearch] = useLocalStorage("searchedCity", "Martos");
+    const [search, setSearch] = useLocalStorage("searchedCity", "Madrid");
     const [checkedInfo, setCheckedInfo] = useLocalStorage("checkedInfo", false);
 
     // Estado DetailedInfo.jsx
