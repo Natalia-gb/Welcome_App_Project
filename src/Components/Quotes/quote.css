@@ -1,0 +1,68 @@
+#quote_container {
+    flex-direction: column;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#quote{
+    color: white;
+    transition: 0.5s;
+}
+
+#author{
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+    flex-direction: row;
+}
+
+#quote:hover + #author{
+    opacity: 1;
+    color: white;
+    transition: 0.5s;
+    visibility: visible;
+    margin-top: 20px;
+}
+
+@keyframes heart-beat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.expand{
+    animation: heart-beat 0.5s ease;
+}
+
+#quote_container > *:first-child{
+    transform: translateY(0%);
+    transition: all 0.5 ease;
+}
+
+#quote_container:hover > *:first-child{
+    transform: translateY(-25%);
+    transition: all 0.5 ease;
+}
+
+#quote_container > *:last-child{
+    transform: translateY(-30%);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+#quote_container:hover > *:last-child{
+    transform: translateY(-30%);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+button{
+    opacity: 1;
+    visibility: visible;
+}

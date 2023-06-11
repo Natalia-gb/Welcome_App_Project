@@ -1,0 +1,122 @@
+#inputNameFocus:active{
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputNameFocus:focus{
+    outline: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputEditFocus{
+    color: white;
+    white-space: nowrap;
+    height: 54px;
+    width: 180px;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputEditFocus:focus{
+    outline: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputEditFocus:active{
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+@keyframes ping-effect {
+    0% { 
+        transform: scale(1);
+    }
+    15% {
+        opacity: 1;
+    }
+    30% {
+        transform: scale(4);
+        opacity: 0;
+    }
+    31% { 
+        transform: scale(1);
+    }
+    46% {
+        opacity: 1;
+    }
+    61% {
+        transform: scale(4);
+        opacity: 0;
+    }
+    62% { 
+        transform: scale(1);
+    }
+    77% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+#inputNameFocus{
+    color: white;
+    white-space: nowrap;
+    height: 54px;
+    width: 180px;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputUpdateUser:active{
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputUpdateUser:focus{
+    outline: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputUpdateUser{
+    color: white;
+    white-space: nowrap;
+    height: 54px;
+    width: 250px;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}

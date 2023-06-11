@@ -1,0 +1,111 @@
+#aChrome:hover{
+    background-color: black;
+}
+
+#aProducts:hover{
+    background-color: black;
+}
+
+#formGroupExampleInput{
+    background-color: transparent;
+    border: none;
+    height: 16px;
+    border-color: transparent;
+}
+
+#form{
+    background-color: black;
+}
+
+#formEdit{
+    margin-top: -15px;
+    background-color: black;
+}
+
+#exampleFormControlInput1{
+    color: white;
+    white-space: nowrap;
+    height: 16px;
+    width: 208px;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#exampleFormControlInput2{
+    color: white;
+    white-space: nowrap;
+    height: 16px;
+    width: 208px;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#ulMenu{ background-color: black;} 
+
+#liLink{
+    background-color: black;
+    margin-top: -25px;
+}
+
+#linkP, #iconLink{ margin-top: 20px; }
+
+#buttonCreate{
+    border-radius: 20px;
+    width: 96.03px;
+    background-color: #528230F2;
+    height: 45px;
+}
+
+#buttonSave{
+    border-radius: 20px;
+    width: 96.03px;
+    background-color: #528230F2;
+    height: 45px;
+}
+
+#buttonCreate:hover{
+    background-color: darkgreen;
+}
+
+#iconArrow:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+#linksArray{
+    margin-top: -20px;
+    background-color: black;
+    height: 52px;
+}
+
+#linksArray:hover{
+    color: white;
+}
+
+#iconUrl{
+    margin-top: 7px;
+    color: grey;
+}
+
+#buttonDelete{
+    background-color: black;
+    margin-top: -20px;
+    height: 50px;
+}
+
+#buttonEdit{
+    background-color: black;
+    margin-top: -20px;
+    height: 50px;
+}

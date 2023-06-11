@@ -1,0 +1,35 @@
+#divHour:hover > #text_hour + button > #dots{
+    opacity: 1;
+    visibility: visible;
+    color: white;
+}
+
+#dots{
+    opacity: 0;
+    visibility: hidden;
+}
+
+#dots:active{
+    opacity: 1;
+    visibility: visible;
+    color: white;
+}
+
+#flexSwitchCheckDefault:checked{
+    background-color: green !important;
+}
+
+#divHour:hover > button > #arrow{
+    opacity: 1;
+    visibility: visible;
+    color: white;
+}
+
+#arrow{
+    opacity: 0;
+    visibility: hidden;
+}
+
+#text_hour{
+    margin-bottom: -10px;
+}

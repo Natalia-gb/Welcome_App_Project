@@ -1,0 +1,57 @@
+#urlWeather:hover{
+    background-color: #343333;
+    cursor: pointer;
+}
+
+#inputSearch:active{
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputSearch:focus{
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+#inputSearch{
+    color: white;
+    white-space: nowrap;
+    height: 25px;
+    width: 120px;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    background-color: transparent;
+}
+
+#divTop #dots{
+    color: white;
+    opacity: 1;
+    visibility: visible;
+}
+
+#divInfo{
+    overflow-x: scroll;
+}
+
+#hr{
+    margin-top: 0px;
+}
+
+#divBottom{
+    margin-top: 0px;
+}
+
+#divDetailed{
+    margin-top: -16px;
+}

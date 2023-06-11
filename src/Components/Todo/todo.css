@@ -1,0 +1,68 @@
+.completed{
+    text-decoration: line-through;
+    color: white;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+.no_completed{
+    color: white;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+#inputCreateFirst, #inputEdit, #inputCreateSecond{
+    font-size: 16px;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: white;
+    outline: none;
+    background-color: transparent;
+}
+
+#inputCreateFirst{
+    padding: 4px 20px;
+    margin-top: 60px;
+}
+
+#inputCreateSecond{
+    margin-top: 78px;
+}
+
+#inputCreate:focus{
+    font-size: 16px;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: white;
+    outline: none;
+    background-color: transparent;
+}
+
+#inputCreate:active{
+    font-size: 16px;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: white;
+    outline: none;
+    background-color: transparent;
+}
+
+#divButtons{
+    margin-left: 70px;
+}
+
+#divTasks{
+    margin-top: -10px;
+}
+
+#checkboxTodo{
+    margin-top: 21px;
+}
