@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from '../Components/Links/Link';
 
-export const ChildrenLink = (props) => {
+export const ChildrenLink = ({disabledWidget}) => {
     return (
         <>
-            <Link disabled={props.disabledWidget} />
+            <Link disabled={disabledWidget} />
         </>
     )
 }

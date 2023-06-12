@@ -1,8 +1,8 @@
 import React from 'react';
 import { InputLink } from '../Components/InputLink/InputLink';
 
-export const ChildrenSearch = (props) => {
+export const ChildrenSearch = ({disabledWidget}) => {
     return (
-        <InputLink disabled={props.disabledWidget} />
+        <InputLink disabled={disabledWidget} />
     )
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { QuoteText } from '../Components/Quotes/QuoteText';
 
-export const ChildrenQuotes = (props) => {
+export const ChildrenQuotes = ({disabledWidget}) => {
     return (
-        <QuoteText disabled={props.disabledWidget} />
+        <QuoteText disabled={disabledWidget} />
     )
 }
