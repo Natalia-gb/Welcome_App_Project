@@ -22,4 +22,4 @@ Dejo aquí algunas imágenes de la app:
 
 ![Imagen de la lista de tareas](https://github.com/Natalia-gb/Welcome-App/blob/master/src/assets/imgTodo.png) 
 
-Si deseas probarla y echarle un vistazo, sólo tienes que pinchar en este enlace: [Welcome App](https://natalia-gb.github.io/welcome_app/)
+Si deseas probarla y echarle un vistazo, sólo tienes que pinchar en este enlace: [Welcome App](https://natalia-gb.github.io/Welcome_App_Project/)
